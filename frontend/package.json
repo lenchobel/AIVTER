@@ -1,0 +1,30 @@
+{
+  "name": "vapi-booking-frontend",
+  "version": "1.0.0",
+  "description": "VAPI booking dashboard frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.17.0",
+    "date-fns": "^3.0.6",
+    "lucide-react": "^0.303.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.14.1",
+    "react-window": "^1.8.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.2",
+    "vite": "^5.0.8"
+  }
+}
